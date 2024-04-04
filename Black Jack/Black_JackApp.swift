@@ -11,7 +11,8 @@ import SwiftUI
 struct Black_JackApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginView()
+                .preferredColorScheme(.dark)
         }
     }
 }

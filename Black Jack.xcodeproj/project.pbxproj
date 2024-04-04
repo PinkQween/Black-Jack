@@ -14,6 +14,7 @@
 		BD9F673D2BBDE294007ABCED /* Black_JackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F673C2BBDE294007ABCED /* Black_JackTests.swift */; };
 		BD9F67472BBDE294007ABCED /* Black_JackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F67462BBDE294007ABCED /* Black_JackUITests.swift */; };
 		BD9F67492BBDE294007ABCED /* Black_JackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F67482BBDE294007ABCED /* Black_JackUITestsLaunchTests.swift */; };
+		BD9F67592BBDE706007ABCED /* NetwrokManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F67582BBDE706007ABCED /* NetwrokManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		BD9F67422BBDE294007ABCED /* Black JackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Black JackUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD9F67462BBDE294007ABCED /* Black_JackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Black_JackUITests.swift; sourceTree = "<group>"; };
 		BD9F67482BBDE294007ABCED /* Black_JackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Black_JackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD9F67582BBDE706007ABCED /* NetwrokManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetwrokManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				BD9F672B2BBDE291007ABCED /* Black_JackApp.swift */,
 				BD9F672D2BBDE291007ABCED /* ContentView.swift */,
+				BD9F67582BBDE706007ABCED /* NetwrokManager.swift */,
 				BD9F672F2BBDE293007ABCED /* Assets.xcassets */,
 				BD9F67312BBDE293007ABCED /* Preview Content */,
 			);
@@ -143,6 +146,8 @@
 			dependencies = (
 			);
 			name = "Black Jack";
+			packageProductDependencies = (
+			);
 			productName = "Black Jack";
 			productReference = BD9F67282BBDE291007ABCED /* Black Jack.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,8 @@
 				Base,
 			);
 			mainGroup = BD9F671F2BBDE290007ABCED;
+			packageReferences = (
+			);
 			productRefGroup = BD9F67292BBDE291007ABCED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD9F672E2BBDE291007ABCED /* ContentView.swift in Sources */,
+				BD9F67592BBDE706007ABCED /* NetwrokManager.swift in Sources */,
 				BD9F672C2BBDE291007ABCED /* Black_JackApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
